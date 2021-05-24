@@ -1,0 +1,128 @@
+.promotion {
+    background-image: url(../Recursos/Promotion.png);
+    font-family: Source Sans Pro;
+    background-size: cover;
+
+    &__container {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 50px 0;
+        max-width: 1200px;
+        max-height: 2000px;
+        color: #ffffff;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 177.7%;
+        text-align: center;
+        letter-spacing: 0.265em;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 177.7%;
+        text-align: center;
+        letter-spacing: 0.25em;
+    }
+
+    &__btn {
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 29px;
+        padding-right: 28px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+
+
+        color: #ffffff;
+        background-color: #ffffff00;
+        border: 1.5px solid #ffffff;
+        box-sizing: border-box;
+    }
+
+    &__btn:hover {
+        color: #ffffff;
+        background-color: #ffffff49;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+
+
+.promotion{
+
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 50px 0;
+        max-width: 500px;
+        max-height: 800px;
+        color: #ffffff;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 177.7%;
+        text-align: center;
+        letter-spacing: 0.265em;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 177.7%;
+        text-align: center;
+        letter-spacing: 0.25em;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        margin-left: 35%;
+        margin-top: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 20px;
+        padding-right: 19px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #ffffff00;
+        border: 1.5px solid #ffffff;
+        box-sizing: border-box;
+    }
+
+    &__btn:hover {
+        color: #ffffff;
+        background-color: #ffffff49;
+    }
+
+
+}
+
+
+
+
+}

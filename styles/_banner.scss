@@ -1,0 +1,179 @@
+.hero{
+    background-image: url("../Recursos/Patters.png");
+    background-size: cover;
+    background-position: center;   
+
+    &__store{
+        background-image: url("../Recursos/BannerStore.png");
+        background-size: cover;
+        background-position: center;   
+
+    }
+
+
+    &__container{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 50px 0;
+        max-width: 1200px;
+        max-height: 600px;
+        color: #ffffff;
+    }
+
+    &__name{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 177.7%;
+    letter-spacing: 0.265em;
+    margin-top: none;
+    max-width: 250px;
+    }
+
+    &__subname{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 177.7%;
+        letter-spacing: 0.46em;
+        margin-bottom: 100px;
+    }
+
+    &__navigation{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 177.7%;
+        letter-spacing: 0.265em;
+        text-align: right;
+    }
+
+
+    &__navText{
+        display: inline;
+        padding: 10px;
+        list-style: none;        
+        margin-top: 100px;
+    }
+
+    &__text{
+        padding: 0px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 200%;
+        text-transform: uppercase;
+        letter-spacing: 0.265em;
+        color: rgb(255, 255, 255);
+        margin-bottom: 100em; 
+    }
+
+    &__burguer{
+    display: none;
+    }
+
+    &__menu{
+        background-color: rgba($color: #ff2a00, $alpha: 1.0)
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+
+    .hero{
+
+
+        background-image: url("../Recursos/Patters.png");
+        background-size: cover;
+        background-position: center;  
+        //background-color: aqua;
+    
+        &__container{
+            width: 100%;
+            margin: 0 30px;
+            overflow: hidden;
+            padding: 50px 0;
+            max-width: 300px;
+            max-height: 400px;
+            color: #ffffff;
+        }
+    
+        &__name{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 177.7%;
+        letter-spacing: 0.265em;
+        margin-top: none;
+        max-width: 250px;
+        }
+    
+        &__subname{
+            font-family: Sora;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 177.7%;
+            letter-spacing: 0.46em;
+            margin-bottom: 100px;
+        }
+    
+        &__navigation{
+            display: none;
+            font-family: Sora;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 177.7%;
+            letter-spacing: 0.265em;
+            text-align: right;
+        }
+    
+    
+        &__navText{
+            display: inline;
+            padding: 2px;
+            list-style: none;        
+            margin-top: 00px;
+          //  border-bottom: 1px solid white;
+        }
+    
+        &__text{
+            padding: 0px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 200%;
+            text-transform: uppercase;
+            letter-spacing: 0.265em;
+            color: rgb(255, 255, 255);
+            margin-bottom: 100em; 
+        }
+
+
+        &__burguer{
+            display: block;
+            position: absolute;
+            right: 25px;
+            
+        }
+        &__menu{
+            background-color: rgba($color: #B06C00, $alpha: 1.0);
+            width: 30%;
+            position: absolute;
+            right: 20px;
+            top: 70px;
+            padding: 10px;
+            border: 1px solid white;
+        }
+
+
+    }
+}

@@ -1,0 +1,80 @@
+.about {
+    background-image: url(../Recursos/About.png);
+    font-family: Source Sans Pro;
+    background-size: cover;
+
+    &__container{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 50px 0;
+        max-width: 1200px;
+        max-height: 2000px;
+        color: #ffffff;
+    }
+
+    &__title{
+    margin-top: 350px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 177.7%;
+    letter-spacing: 0.265em;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+    &__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 177.7%;
+        text-align: center;
+        letter-spacing: 0.25em;
+    }
+
+}
+@media screen and (max-width: 500px){
+
+    .about {
+        background-image: url(../Recursos/About.png);
+        font-family: Source Sans Pro;
+        background-size: cover;
+    
+        &__container{
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 50px 0;
+            max-width: 500px;
+            max-height: 1000px;
+            color: #ffffff;
+        }
+    
+        &__title{
+        margin-top: 60px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 177.7%;
+        letter-spacing: 0.265em;
+        text-align: center;
+        text-transform: uppercase;
+        }
+    
+        &__text{
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 11px;
+            line-height: 177.7%;
+            text-align: center;
+            letter-spacing: 0.25em;
+        }
+    
+    }
+
+
+
+
+
+}

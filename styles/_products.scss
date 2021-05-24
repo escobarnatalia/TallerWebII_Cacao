@@ -1,0 +1,104 @@
+.products {
+    background-image: url(../Recursos/Products.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    display: flex;
+    height: 1080px;
+   
+    &__name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+    }
+
+    &__price {
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20 px;
+        line-height: 50px;
+        letter-spacing: 10px;
+    }
+
+    &__text {
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 177.7%;
+        letter-spacing: 0.25em;
+    }
+
+    &__image {
+        padding-top: 128px;
+        padding-left: 150px;
+        padding-bottom: 62px;
+    }
+
+    &__banana {
+        background-image: url(../Recursos/Rectangle.png);
+        mix-blend-mode: multiply;
+    }
+}
+@media screen and (max-width: 500px){
+    .products {
+        background-image: url(../Recursos/Products.png);
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        font-family: Source Sans Pro;
+        display: flex;
+        height: 900px;
+       
+        &__name {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 50px;
+            text-align: center;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+        }
+    
+        &__price {
+            text-align: center;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20 px;
+            line-height: 50px;
+            letter-spacing: 10px;
+        }
+    
+        &__text {
+            text-align: center;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 177.7%;
+            letter-spacing: 0.25em;
+            margin: 0px 10px;
+        }
+    
+        &__image {
+            padding-top: 128px;
+            padding-left: 90px;
+            padding-bottom: 62px;
+        }
+    
+        &__banana {
+            background-image: url(../Recursos/Rectangle.png);
+            mix-blend-mode: multiply;
+            display: none;
+        }
+        &__blueberries{
+            display: none;
+
+        }
+    }
+}

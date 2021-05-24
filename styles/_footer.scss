@@ -1,0 +1,103 @@
+.footer {
+    //background-color: #000002;
+    
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    display: flex;
+    height: 330px;
+    padding: 50px;
+    border-top: 1px solid white;
+
+    &__name {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 177.7%;
+        letter-spacing: 0.265em;
+        margin-top: 75px;
+        max-width: 250px;
+    }
+
+    &__subname {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 177.7%;
+        letter-spacing: 0.46em;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #727272;
+    }
+
+    &__nav {
+        font-size: 14px;
+        text-align: right;
+        margin-left: auto;
+    }
+
+    &__navText {
+        display: inline;
+        padding: 10px;
+        list-style: none;
+    }
+}
+@media screen and (max-width: 500px){
+
+    .footer {
+        background-color: #000002;
+        color: #ffffff;
+        font-family: Source Sans Pro;
+        display: block;
+        height: 250px;
+        padding: 10px 25px;
+    
+        &__name {
+            font-family: Sora;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 177.7%;
+            letter-spacing: 0.265em;
+            margin-top: 0px;
+            max-width: 250px;
+        }
+    
+        &__subname {
+            font-family: Sora;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 177.7%;
+            letter-spacing: 0.46em;
+        }
+    
+        &__text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 18px;
+            color: #727272;
+            margin-bottom: 20px;
+        }
+    
+        &__nav {
+            font-size: 10px;
+            text-align: left;
+        }
+    
+        &__navText {
+            display: inline;
+            padding: 0px;
+            list-style: none;
+        }
+    }
+
+
+}

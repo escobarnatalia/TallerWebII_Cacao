@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Cacao</title> 
+</head>
+
+<body>
+    <header class="hero__store">
+        <div class="hero__container">
+            <nav class="hero__navigation">
+                <ul>
+                    <li class="hero__navText"><a class="link" href="home.html"></a>HOME</li>
+                    <li class="hero__navText"><a href="about.html"></a>ABOUT</li>
+                    <li class="hero__navText"> <a href="contact.html"></a>CONTACT</li>
+                    <li class="hero__navText"><a class="link" href="catalogue.html">CATALOGUE</a></li>
+                    <li class="hero__navText"><a class="link" href="yourbox.html">YOUR BOX</a></li>
+                </ul>
+            </nav>
+            <img src="./Recursos/burger.svg" alt="" class="hero__burguer">
+
+            <div class="hero__menu hidden ">
+
+                <ul>
+                    <li class="hero__navText"><a class="link" href="home.html">HOME</a></li>
+                    <li class="hero__navText"><a class="link" href="about.html">ABOUT</a></li>
+                    <li class="hero__navText"> <a class="link" href="contact.html">CONTACT</a></li>
+                    <li class="hero__navText"><a class="link" href="catalogue.html">CATALOGUE</a></li>
+                    <li class="hero__navText"><a class="link" href="yourbox.html">YOUR BOX</a></li>
+                </ul>
+
+            </div>
+       
+            <h1 class="hero__name"><a class="link" href="catalogue.html">CACAO</a></h1>
+            <h2 class="hero__subname"><a class="link" href="catalogue.html">Lunaire</a></h2>
+
+            <section>
+                <div class="hero__text">
+                    <h1>
+                        THE TASTE<br>
+                        OF NATURAL<br>
+                        CHOCOLATE
+                    </h1>
+                </div>
+
+            </section>
+        </div>
+    </header>
+    <div class="auth">
+
+      <div class="auth__without hidden">
+        <a href="login.html" style="color: ghostwhite;" class="link">Login</a>
+        <a href="register.html" style="color: #B26D00;" class="link">Register</a>
+      </div>
+      <div class="auth__with hidden">
+        <a style="color: #B26D00;" href="/profile.html" class="auth__profile link">
+          <img src="" alt="">
+          <span></span>
+        </a>
+        <a class="showadmin hidden link" style="color: #D32804;" href="/admin.html">Admin</a>
+        <br>
+        <a style="color: ghostwhite;" href="#" class="auth__signout link" >
+          Signout
+        </a>
+        
+      </div>
+    </div>
+
+    <section class="catalogue">
+
+    <section class="catalogueInfo">
+        <article class="catalogueInfo__header">
+             <p>Home . <strong>Catalogue</strong></p>
+        </article>
+        <div class="catalogueInfo__options">
+            <p>Our chocolate</p>
+            <div class="catalogueInfo__sort">
+                <p>Sort by</p>
+                <form class="filterFormS">
+                <label class="ordenamientos">
+                    <select name="order" class="ordenamientos__select">
+                      <option class="ordenamientos__select__option" value="">RELEVANCE</option>
+                      <option class="ordenamientos__select__option" value="price_asc">ALPHABETICAL  A . Z</option>
+                      <option class="ordenamientos__select__option" value="price_desc">ALPHABETICAL  Z . A</option>
+                      <option class="ordenamientos__select__option"  value="alfabeticA">PRICE LOW . HIGH</option>
+                      <option class="ordenamientos__select__option"  value="alfabeticZ">PRICE HIGH . LOW</option>
+                      
+                    </select>
+                  </label>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="catalogueProducts">
+
+        <form class="filterform">
+
+            <div class="filterform__title"> 
+               <h4 class="filterform__text">Nuts</h4>
+               <svg class="filterform__btn" width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.5 2L8.5 11.5L2 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+            </div>
+               <div class="filterform_options hidden">
+              <label>
+                <input type="radio" name="nuts" value="" checked >
+                All
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="nuts" value="Almond">
+                Almond
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="nuts" value="Pistachio">
+               Pistachio
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="nuts" value="Peanut">
+               Peanut
+              </label>
+            </div>
+        
+            <div class="filterform__title"> 
+              <h4 class="filterform__text">Dark</h4>
+              <svg class="filterform__btn" width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.5 2L8.5 11.5L2 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+              </div>
+              <div class="filterform_options hidden">
+              <label>
+                <input type="radio" name="dark" value="" checked>
+                All
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="dark" value="35%">
+                35%
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="dark" value="60%">
+                60%
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="dark" value="75%">
+                75%
+              </label>
+            </div>
+             <div class="filterform__title"> 
+              <h4 class="filterform__text" >Healthy</h4>
+              <svg class="filterform__btn" width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.5 2L8.5 11.5L2 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+              </div>
+              <div class="filterform_options hidden">
+              
+              <label>
+                <input type="radio" name="healthy" value="" checked>
+                All
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="healthy" value="Sugar free">
+                Sugar free
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="healthy" value="Fat free">
+                Fat free
+              </label>
+              
+              </div>
+        
+
+              
+             </form>
+
+             <section class="productsList">
+
+
+               </div>
+
+
+             </section>
+
+    </section>
+
+
+
+</section>
+<form class="form__auth hidden showadmin">
+  <h2 class="form__auth__title">New product</h2>
+
+  <label class="form__auth__label">
+    Title
+    <input name="title" type="text">
+  </label>
+<!--
+  <label class="form__label">
+    Imagen
+    <input name="image" type="url">
+  </label>
+-->
+  <label class="form__auth __label">
+    Price
+    <input name="price" type="number">
+  </label>
+
+   
+  <label class="form__auth__label">
+    Details
+    <input name="details" type="text">
+  </label>
+ 
+ 
+  <label class="form__auth__label">
+    Nuts
+  <select name="nuts" class="form__auth__label">
+    <option value="">Select</option> 
+    <option value="Almond">Almond</option> 
+    <option value="Pistachio">Pistachio</option>
+    <option value="Peanut">Peanut</option> 
+  </select>
+</label>
+
+
+<label class="form__auth__label">
+  Dark
+  <select name="dark" class="form__auth__label">
+    <option value="">Select</option> 
+    <option value="35%">35%</option> 
+    <option value="60%">60%</option>
+    <option value="75%">75%</option>
+  </select>
+</label>
+
+
+<label class="form__auth__label">
+  
+  Healthy
+  <select name="healthy" class="form__auth__label">
+    <option value="">Select</option> 
+    <option value="Sugar free">Sugar free</option> 
+    <option value="Fat free">Fat free</option>
+  </select>
+   
+</label>
+
+<!--
+<label class="form__auth__label">
+  Tipo de movimiento
+  <select name="movimiento" class="form__auth__label">
+    <option value="">Selecciona</option> 
+    <option value="Mecanico">Mecánico</option> 
+    <option value="Pila">Pila</option>
+  </select>
+
+</label>
+-->
+  <input type="file" name="imageFile">
+
+
+  <button>
+    Guardar
+  </button>
+  
+</form>
+<footer>
+  <section class="footer">
+
+      <div class="footer__logo">
+          <h1 class="footer__name">CACAO</h1>
+          <h2 class="footer__subname">Lunaire</h2>
+          <p class="footer__text">
+              Is a Colombian company in charge of the distribution and production of 100% Colombian dark
+              chocolate<br>
+              Designed and built with all the love in the world by the CACAO team with the help of our
+              contributors.
+          </p>
+      </div>
+      <div class="footer__nav">
+          <ul>
+              <li class="hero__navText"><a href="home.html"></a>HOME</li>
+              <li class="hero__navText"><a href="about.html"></a>ABOUT</li>
+              <li class="hero__navText"> <a href="contact.html"></a>CONTACT</li>
+              <li class="hero__navText"><a href="catalogue.html"></a>CATALOGUE</li>
+              <li class="hero__navText"> <a href="yourbox.html"></a>YOUR BOX</li>
+          </ul>
+      </div>
+  </section>
+</footer>
+        
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+    <script src="./scripts/firebase.js"></script>
+    <script src="./scripts/catalogue.js"></script>
+    <script src="./scripts/auth.js"></script>
+    <script src="./scripts/main.js"></script>
+</html>

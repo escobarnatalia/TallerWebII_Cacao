@@ -1,0 +1,480 @@
+.catalogue{
+    background-color: rgb(25, 15, 13);
+    padding: 6%;
+}
+
+.catalogueInfo{
+
+    &__header{
+        color: white;
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(255, 255, 255);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding: 2%;
+        font-size: 30px;
+
+        display: flex;
+    }
+
+    &__options{
+        display: flex;
+        color: white;
+        font-size: 3em;
+        //font-family: inherit;
+        padding: 60px 0px; 
+
+    }
+    &__sort{
+        display: flex;
+        margin-left : auto;
+        font-size: 0.5em;
+
+    }
+}
+.catalogueProducts{
+    display: flex;
+}
+.filterform{
+    color: white;
+   // border-right: 1px solid white;
+    width: 20%;
+
+    &__title{
+        font-size: 2em;
+        letter-spacing: 0.2em;
+        display: flex;
+        border-bottom: 1px solid white;
+        padding: 40px 20px 40px 0px;
+    }
+    &__text{
+        font-weight: normal;
+    }
+
+    &__btn{
+        margin-left: auto;
+    }
+}
+.productsList{
+    &__box{
+        display: block;
+      
+    }
+
+   //background-color: yellow; 
+    width: 80%;
+    border-left: 1px solid white;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    //padding-left:100px;
+}
+.product{
+    width: 273px;
+    color: white;
+    margin-left: 83px;
+    margin-bottom: 100px;
+
+    &__box{
+        width: 80%;
+        display: flex;
+        color: white;
+        margin: auto;
+        padding: 50px;
+       // background-color: wheat;
+
+    }
+    &__img{
+        width: 273px;
+
+    }
+    &__title{
+        font-weight: bold;
+        letter-spacing: 0.5em;
+        padding: 20px 00px;
+
+    }
+    &__price{
+        font-weight: bold;
+        letter-spacing: 0.5em;
+        padding-bottom: 10px;
+
+    }
+
+    &__elem{
+        font-weight: lighter; 
+        font-size: 13px;
+        letter-spacing: 0.2em;
+        padding-bottom:10px ;
+    }
+
+    &__btn{
+        width: 100%;
+    }
+    &__info{
+        padding-left: 20px;
+    }
+
+}
+.productInfo{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    //background-color: aquamarine;
+    color: white;
+    position: relative;
+
+    &__img{
+        width: 500px;
+    }
+    &__text{
+        display: block;
+        padding-left: 80px     ;
+    }
+
+    &__title{
+        font-size:2em;
+        font-weight: bold;
+        letter-spacing: 10px;
+    }
+    
+    &__price{
+        font-weight: normal;
+        font-size: 1.8em;
+        margin: 20px 0px;
+
+    }
+    &__details{
+        font-weight: lighter;
+        font-size: 1.2em;
+        margin: 20px 0px;
+        letter-spacing: 0.1em;
+
+    }
+    &__btn{
+        position: absolute;
+        bottom: 0px;
+        width: 250px;
+    }
+}
+.totalSect{
+    color: white;
+   // background: yellowgreen;
+    padding: 0px 100px;
+
+    &__info{
+        width: 25%;
+      //  background-color: yellow;
+        margin-left:auto ;
+        padding: 80px 0px;
+
+    }
+    &__textTotal{
+        display: flex;
+        padding: 20px 0px;
+    }
+    &__text{
+        display: flex;
+        font-size: 1.4em;
+        
+    }
+    &__btn{
+        width: 100%;
+    }
+}
+.total{
+    margin-left: auto;
+    font-size: 1.2em;
+    letter-spacing: 0.7em;
+}
+.datoscheck{
+    //background-color: red;
+    margin: auto;
+    width: 40%;
+    color: white;
+
+
+    &__title{
+        letter-spacing: 0.5em;
+        font-weight: bold;
+
+    }
+    &__text{
+        margin: 20px;
+        border: 1px solid white;
+        padding: 10px;
+    }
+
+    &__profile{
+        width: 40%;
+        margin-left: 100px;
+    }
+}
+.auth{
+    margin-left: 6%;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:visited{
+    text-decoration: none;
+}
+
+.ordenamientos{
+    &__select{
+        margin-left: 20px;
+        background-color: transparent;
+        color: white;
+        padding:10px;
+        letter-spacing: 0.5em;
+        border: 2px solid white;
+        font-weight: lighter;
+
+        &__option{
+            background-color: rgba($color: #190F0D, $alpha: 1.0);
+
+        }
+    }
+}
+
+.menu{
+
+}
+@media screen and (max-width: 500px){
+
+    .catalogueInfo{
+
+
+    
+        &__options{
+            display: block;
+            color: white;
+            font-size: 1.8em;
+            //font-family: inherit;
+            padding: 20px 0px; 
+    
+        }
+        &__header{
+            font-size: 1.5em;
+        display: block;
+        }
+        &__sort{
+            padding-top: 15px;
+            display: flex;
+            margin-left : auto;
+            font-size: 0.8em;
+    
+        }
+    }
+    .catalogueProducts{
+        display: block;
+    }
+    .filterform{
+        color: white;
+       // border-right: 1px solid white;
+        width: 80%;
+        margin: 40px auto;
+    
+        &__title{
+            font-size: 1.2em;
+            display: flex;
+            
+            border-bottom: 1px solid white;
+            padding: 20px 20px 20px 0px;
+        }
+    
+        &__btn{
+            margin-left: auto;
+        }
+    }
+
+    .productsList{
+        &__box{
+            display: block;
+          
+        }
+    
+       //background-color: yellow; 
+        width: 100%;
+        border-left: none;
+        display: flex;
+        flex-direction: wrap;
+        flex-wrap: wrap;
+        align-items: center;
+        //padding-left:100px;
+    }
+    .product{
+        width: 273px;
+        color: white;
+        margin-left:20px;
+        margin-bottom: 40px;
+    
+        &__box{
+            width: 100%;
+            display: block;
+            color: white;
+            margin: auto;
+            padding: 20px 10px;
+           // background-color: wheat;
+    
+        }
+        &__img{
+            width: 273px;
+    
+        }
+        &__title{
+            font-weight: bold;
+            letter-spacing: 0.5em;
+            padding: 20px 00px;
+    
+        }
+        &__price{
+            font-weight: bold;
+            letter-spacing: 0.5em;
+            padding-bottom: 10px;
+    
+        }
+        &__elem{
+            font-weight: lighter; 
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            padding-bottom:10px ;
+        }
+    
+        &__btn{
+            width: 100%;
+        }
+        &__info{
+            padding-left: 20px;
+        }
+    
+    }
+
+    .productInfo{
+        display: block;
+        width: 80%;
+        margin: 0px auto;
+        margin-bottom: 20px;
+        //background-color: aquamarine;
+        color: white;
+        position: relative;
+    
+        &__img{
+            width: 280px;
+        }
+        &__text{
+            display: block;
+            padding-left: 0px     ;
+        }
+    
+        &__title{
+            font-size:1.5em;
+            font-weight: bold;
+            letter-spacing: 10px;
+        }
+        
+        &__price{
+            font-weight: normal;
+            font-size: 1.8em;
+            margin: 20px 0px;
+    
+        }
+        &__btn{
+            position: relative;
+            bottom: 0px;
+            width: 250px;
+        }
+    }
+
+    .totalSect{
+        color: white;
+       // background: yellowgreen;
+        padding: 0px 30px;
+    
+        &__info{
+            width: 65%;
+          //  background-color: yellow;
+            margin-left:auto ;
+            padding: 40px 0px;
+    
+        }
+        &__textTotal{
+            display: flex;
+            padding: 20px 0px;
+        }
+        &__text{
+            display: flex;
+            font-size: 1em;
+            
+        }
+        &__btn{
+            width: 100%;
+        }
+    }
+    .total{
+        margin-left: auto;
+        font-size: 1.2em;
+        letter-spacing: 0.7em;
+    }
+    .datoscheck{
+        //background-color: red;
+        margin: auto;
+        width: 80%;
+        color: white;
+    
+    
+        &__title{
+            letter-spacing: 0.2em;
+            font-weight: bold;
+            font-size: 2em;
+    
+        }
+        &__text{
+            margin: 20px;
+            border: 1px solid white;
+            padding: 10px;
+        }
+    
+        &__profile{
+            width: 40%;
+            margin-left: 100px;
+        }
+    }
+
+    .auth{
+        margin-left: 25px;
+        padding-top: 20px;
+        font-size: 1em;
+    }
+    .link{
+        text-decoration: none;
+    }
+
+    .ordenamientos{
+        &__select{
+
+            margin-left: 20px;
+            
+            background-color: transparent;
+            color: white;
+            padding:10px;
+            letter-spacing: 0.2em;
+            border: 2px solid white;
+            font-weight: lighter;
+            width: 80%;
+    
+            &__option{
+                background-color: rgba($color: #190F0D, $alpha: 1.0);
+    
+            }
+        }
+    }
+
+}
